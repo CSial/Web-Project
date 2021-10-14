@@ -1,0 +1,54 @@
+.btn-group button {
+  background-color: black; 
+  border: 1px solid black; 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left; 
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.btn-group button:hover {
+  background-color: rgb(63, 57, 57);
+}
+
+.status {
+  float:left;
+  height: 80%;
+}
+
+.status, th{
+height:30%;
+background-color: rgb(34, 33, 34);
+color: rgb(238, 236, 236);
+}
+.status, td{
+background-color: rgb(129, 95, 143);
+color:rgb(250, 249, 249);
+}
+.status, th, td {
+border: 1px solid black;
+}
+
+p.groove {
+border: 3px solid rgb(33, 18, 32);
+height: 400px;
+width: 1335px;
+
+background-color: rgb(33, 19, 32);
+}
+
+/* .scroll{
+  margin-bottom:400px;
+} */
